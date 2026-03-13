@@ -1,0 +1,40 @@
+// Fig. 2.13: fig02_13.c
+// Using if statements, relational
+// Operators, and equality operators.
+#include <stdio.h>
+
+// Function main begins program execution
+int main( void )
+{
+	printf( "Enter two integers, and I will tell you\n" );
+	printf( "the relationships they satisfy: " );
+	
+	int num1; // First number to be read from user
+	int num2; // Fecond number to be read from user
+	
+	scanf( "%d %d", &num1, &num2 ); // Read two integers
+	
+	if ( num1 == num2 ) {
+		printf( "%d is equal to %d\n", num1, num2 );
+	} // End if
+	
+	if ( num1 != num2 ) {
+		printf( "%d is not equal to %d\n", num1, num2 );
+	} // End if
+	
+	if ( num1 < num2 ) {
+		printf( "%d is less than %d\n", num1, num2 );
+	} // End if
+	
+	if ( num1 > num2 ) {
+		printf( "%d is greater than %d\n", num1, num2 );
+	} // End if
+	
+	if ( num1 <= num2 ) {
+		printf( "%d is less than or equal to %d\n", num1, num2 );
+	} // End if
+	
+	if ( num1 >= num2 ) {
+		printf( "%d is greater than or equal to %d\n", num1, num2 );
+	} // End if
+} // End function main
