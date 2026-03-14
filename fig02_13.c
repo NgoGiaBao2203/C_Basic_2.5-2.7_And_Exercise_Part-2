@@ -10,7 +10,7 @@ int main( void )
 	printf( "the relationships they satisfy: " );
 	
 	int num1; // First number to be read from user
-	int num2; // Fecond number to be read from user
+	int num2; // Second number to be read from user
 	
 	scanf( "%d %d", &num1, &num2 ); // Read two integers
 	
